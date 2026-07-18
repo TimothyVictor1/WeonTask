@@ -1,0 +1,4 @@
+step,shift_px,mask_src,edited_area_pct,cum_ssim,cum_psnr,cum_delta_e,cum_sharpness_ratio,cum_collateral_pct,cum_lpips,near_ssim,near_delta_e,far_ssim,far_delta_e,inc_ssim,inc_delta_e,cost_usd
+step_01,0.0,boxes,7.27,0.9659,39.04,2.009,0.7649,8.06,,0.9673,2.191,0.9658,1.998,0.9659,2.009,
+step_02,0.0,boxes,5.09,0.9509,36.88,2.51,0.7578,15.88,,0.9526,2.663,0.9506,2.489,0.9572,2.257,
+step_03,0.0,boxes,10.17,0.9373,35.6,3.045,0.7649,24.32,,0.9392,3.008,0.9368,3.056,0.9565,2.319,

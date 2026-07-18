@@ -1,0 +1,46 @@
+{
+  "image": "data/inputs/base.png",
+  "model": "google/gemini-3.1-flash-image",
+  "mode": "full",
+  "diff": true,
+  "gate": false,
+  "best_of": 1,
+  "size": 1024,
+  "mock": false,
+  "script": "chain_global",
+  "started": "2026-07-17T22:12:30.169561+00:00",
+  "steps": [
+    {
+      "step": "step_01",
+      "model": "google/gemini-3.1-flash-image",
+      "instruction": "Change the lighting of the whole scene to warm golden hour evening light.",
+      "prompt_tokens": 273,
+      "completion_tokens": 1462,
+      "cost_usd": 0.0683625,
+      "latency_s": 11.69,
+      "text_reply": "",
+      "attempt": 1,
+      "returned_size": [
+        896,
+        1199
+      ],
+      "diff_kept_frac": 0.9209
+    },
+    {
+      "step": "step_02",
+      "model": "google/gemini-3.1-flash-image",
+      "instruction": "Change her sneakers to black leather loafers.",
+      "prompt_tokens": 1128,
+      "completion_tokens": 1120,
+      "cost_usd": 0.067764,
+      "latency_s": 18.08,
+      "text_reply": "",
+      "attempt": 1,
+      "returned_size": [
+        896,
+        1199
+      ],
+      "diff_kept_frac": 0.0515
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "image": "data/inputs/base.png",
+  "model": "google/gemini-3.1-flash-image",
+  "mode": "rebase",
+  "diff": false,
+  "gate": false,
+  "best_of": 1,
+  "size": 1024,
+  "mock": false,
+  "script": "chain_plain",
+  "started": "2026-07-17T22:06:17.953766+00:00",
+  "steps": [
+    {
+      "step": "step_01",
+      "model": "google/gemini-3.1-flash-image",
+      "instruction": "Apply ALL of the following edits to this image:\n1. Make her smile.",
+      "prompt_tokens": 276,
+      "completion_tokens": 1416,
+      "cost_usd": 0.068226,
+      "latency_s": 12.92,
+      "text_reply": "",
+      "attempt": 1,
+      "returned_size": [
+        896,
+        1199
+      ],
+      "mode_note": "rebase with 1 instructions"
+    },
+    {
+      "step": "step_02",
+      "model": "google/gemini-3.1-flash-image",
+      "instruction": "Apply ALL of the following edits to this image:\n1. Make her smile.\n2. Add small gold hoop earrings.",
+      "prompt_tokens": 1146,
+      "completion_tokens": 1120,
+      "cost_usd": 0.067773,
+      "latency_s": 15.67,
+      "text_reply": "",
+      "attempt": 1,
+      "returned_size": [
+        896,
+        1199
+      ],
+      "mode_note": "rebase with 2 instructions"
+    },
+    {
+      "step": "step_03",
+      "model": "google/gemini-3.1-flash-image",
+      "instruction": "Apply ALL of the following edits to this image:\n1. Make her smile.\n2. Add small gold hoop earrings.\n3. Remove the paper shopping bag from the bench.",
+      "prompt_tokens": 1158,
+      "completion_tokens": 1120,
+      "cost_usd": 0.067779,
+      "latency_s": 15.75,
+      "text_reply": "",
+      "attempt": 1,
+      "returned_size": [
+        896,
+        1199
+      ],
+      "mode_note": "rebase with 3 instructions"
+    },
+    {
+      "step": "step_04",
+      "model": "google/gemini-3.1-flash-image",
+      "instruction": "Apply ALL of the following edits to this image:\n1. Make her smile.\n2. Add small gold hoop earrings.\n3. Remove the paper shopping bag from the bench.\n4. Change her sneakers to black leather loafers.",
+      "prompt_tokens": 308,
+      "completion_tokens": 1488,
+      "cost_usd": 0.068458,
+      "latency_s": 10.67,
+      "text_reply": "",
+      "attempt": 1,
+      "returned_size": [
+        896,
+        1199
+      ],
+      "mode_note": "rebase with 4 instructions"
+    },
+    {
+      "step": "step_05",
+      "model": "google/gemini-3.1-flash-image",
+      "instruction": "Apply ALL of the following edits to this image:\n1. Make her smile.\n2. Add small gold hoop earrings.\n3. Remove the paper shopping bag from the bench.\n4. Change her sneakers to black leather loafers.\n5. Fix the collar of her cardigan so it lies flat.",
+      "prompt_tokens": 322,
+      "completion_tokens": 1434,
+      "cost_usd": 0.068303,
+      "latency_s": 12.04,
+      "text_reply": "",
+      "attempt": 1,
+      "returned_size": [
+        896,
+        1199
+      ],
+      "mode_note": "rebase with 5 instructions"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "image": "data/inputs/base.png",
+  "model": "google/gemini-3.1-flash-image",
+  "mode": "full",
+  "diff": false,
+  "gate": false,
+  "best_of": 1,
+  "size": 1024,
+  "mock": false,
+  "script": "chain_plain",
+  "started": "2026-07-17T21:36:44.755988+00:00",
+  "steps": [
+    {
+      "step": "step_01",
+      "model": "google/gemini-3.1-flash-image",
+      "instruction": "Make her smile.",
+      "prompt_tokens": 1124,
+      "completion_tokens": 1134,
+      "cost_usd": 0.067804,
+      "latency_s": 17.05,
+      "text_reply": "I've updated the image to show her with a friendly smile.",
+      "attempt": 1,
+      "returned_size": [
+        896,
+        1199
+      ]
+    },
+    {
+      "step": "step_02",
+      "model": "google/gemini-3.1-flash-image",
+      "instruction": "Add small gold hoop earrings.",
+      "prompt_tokens": 265,
+      "completion_tokens": 1339,
+      "cost_usd": 0.0679895,
+      "latency_s": 11.13,
+      "text_reply": "",
+      "attempt": 1,
+      "returned_size": [
+        896,
+        1199
+      ]
+    },
+    {
+      "step": "step_03",
+      "model": "google/gemini-3.1-flash-image",
+      "instruction": "Remove the paper shopping bag from the bench.",
+      "prompt_tokens": 268,
+      "completion_tokens": 1361,
+      "cost_usd": 0.068057,
+      "latency_s": 10.65,
+      "text_reply": "",
+      "attempt": 1,
+      "returned_size": [
+        896,
+        1199
+      ]
+    },
+    {
+      "step": "step_04",
+      "model": "google/gemini-3.1-flash-image",
+      "instruction": "Change her sneakers to black leather loafers.",
+      "prompt_tokens": 267,
+      "completion_tokens": 1363,
+      "cost_usd": 0.0680625,
+      "latency_s": 10.85,
+      "text_reply": "",
+      "attempt": 1,
+      "returned_size": [
+        896,
+        1199
+      ]
+    },
+    {
+      "step": "step_05",
+      "model": "google/gemini-3.1-flash-image",
+      "instruction": "Fix the collar of her cardigan so it lies flat.",
+      "prompt_tokens": 270,
+      "completion_tokens": 1390,
+      "cost_usd": 0.068145,
+      "latency_s": 12.57,
+      "text_reply": "",
+      "attempt": 1,
+      "returned_size": [
+        896,
+        1199
+      ]
+    }
+  ]
+}

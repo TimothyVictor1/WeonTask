@@ -1,0 +1,3 @@
+step,shift_px,mask_src,edited_area_pct,cum_ssim,cum_psnr,cum_delta_e,cum_sharpness_ratio,cum_collateral_pct,cum_lpips,near_ssim,near_delta_e,far_ssim,far_delta_e,inc_ssim,inc_delta_e,cost_usd,logo_ssim,logo_delta_e,sign_ssim,sign_delta_e,face_ssim,face_delta_e,face_embed_sim
+step_01,0.0,auto,75.92,0.9683,23.35,6.629,0.7302,68.72,,0.9671,6.477,0.9795,8.045,0.9683,6.629,0.0683625,0.7863,14.327,0.9744,12.27,,,
+step_02,0.0,boxes,5.15,0.9683,23.33,6.652,0.7287,68.98,,0.9671,6.502,0.9795,8.045,0.9999,0.012,0.067764,0.7863,14.327,0.9744,12.27,1.0,0.0,

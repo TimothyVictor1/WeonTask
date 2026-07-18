@@ -1,0 +1,89 @@
+{
+  "image": "data/inputs/base.png",
+  "model": "google/gemini-3.1-flash-image",
+  "mode": "full",
+  "diff": false,
+  "gate": false,
+  "best_of": 1,
+  "size": 1536,
+  "mock": false,
+  "script": "chain_plain",
+  "started": "2026-07-17T22:24:22.548751+00:00",
+  "steps": [
+    {
+      "step": "step_01",
+      "model": "google/gemini-3.1-flash-image",
+      "instruction": "Make her smile.",
+      "prompt_tokens": 263,
+      "completion_tokens": 1369,
+      "cost_usd": 0.0680785,
+      "latency_s": 12.18,
+      "text_reply": "",
+      "attempt": 1,
+      "returned_size": [
+        896,
+        1200
+      ]
+    },
+    {
+      "step": "step_02",
+      "model": "google/gemini-3.1-flash-image",
+      "instruction": "Add small gold hoop earrings.",
+      "prompt_tokens": 1126,
+      "completion_tokens": 1120,
+      "cost_usd": 0.067763,
+      "latency_s": 16.51,
+      "text_reply": "",
+      "attempt": 1,
+      "returned_size": [
+        896,
+        1200
+      ]
+    },
+    {
+      "step": "step_03",
+      "model": "google/gemini-3.1-flash-image",
+      "instruction": "Remove the paper shopping bag from the bench.",
+      "prompt_tokens": 268,
+      "completion_tokens": 1336,
+      "cost_usd": 0.067982,
+      "latency_s": 12.44,
+      "text_reply": "",
+      "attempt": 1,
+      "returned_size": [
+        896,
+        1200
+      ]
+    },
+    {
+      "step": "step_04",
+      "model": "google/gemini-3.1-flash-image",
+      "instruction": "Change her sneakers to black leather loafers.",
+      "prompt_tokens": 1128,
+      "completion_tokens": 1120,
+      "cost_usd": 0.067764,
+      "latency_s": 18.93,
+      "text_reply": "",
+      "attempt": 1,
+      "returned_size": [
+        896,
+        1200
+      ]
+    },
+    {
+      "step": "step_05",
+      "model": "google/gemini-3.1-flash-image",
+      "instruction": "Fix the collar of her cardigan so it lies flat.",
+      "prompt_tokens": 1131,
+      "completion_tokens": 1120,
+      "cost_usd": 0.0677655,
+      "latency_s": 18.26,
+      "text_reply": "",
+      "attempt": 1,
+      "returned_size": [
+        896,
+        1200
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "synthetic",
+  "steps": [
+    {
+      "instruction": "recolor region 1",
+      "scope": "local",
+      "regions": [
+        [
+          0.09765625,
+          0.13020833333333334,
+          0.1953125,
+          0.3125
+        ]
+      ]
+    },
+    {
+      "instruction": "recolor region 2",
+      "scope": "local",
+      "regions": [
+        [
+          0.419921875,
+          0.20833333333333334,
+          0.17578125,
+          0.234375
+        ]
+      ]
+    },
+    {
+      "instruction": "recolor region 3",
+      "scope": "local",
+      "regions": [
+        [
+          0.68359375,
+          0.5208333333333334,
+          0.224609375,
+          0.390625
+        ]
+      ]
+    }
+  ]
+}

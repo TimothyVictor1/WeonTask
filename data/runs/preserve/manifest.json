@@ -1,0 +1,89 @@
+{
+  "image": "data/inputs/base.png",
+  "model": "google/gemini-3.1-flash-image",
+  "mode": "full",
+  "diff": false,
+  "gate": false,
+  "best_of": 1,
+  "size": 1024,
+  "mock": false,
+  "script": "chain_preserve",
+  "started": "2026-07-17T21:39:10.697164+00:00",
+  "steps": [
+    {
+      "step": "step_01",
+      "model": "google/gemini-3.1-flash-image",
+      "instruction": "Make her smile softly. Modify only her mouth and the immediately surrounding area of her face. Every other part of the image must stay exactly identical to the input: same eyes, same skin texture, same hair, same clothing including the ATELIER NORD logo, same background including the CAFE LINDGREN sign, same colors, same lighting, same framing. Do not re-render, smooth, sharpen, or recolor anything outside her mouth area.",
+      "prompt_tokens": 1213,
+      "completion_tokens": 1120,
+      "cost_usd": 0.0678065,
+      "latency_s": 15.89,
+      "text_reply": "",
+      "attempt": 1,
+      "returned_size": [
+        896,
+        1199
+      ]
+    },
+    {
+      "step": "step_02",
+      "model": "google/gemini-3.1-flash-image",
+      "instruction": "Add small gold hoop earrings to her ears. Modify only the small regions at her earlobes. Keep everything else pixel-identical to the input: her face and expression, her hair, the cardigan and its embroidered logo, the bag on the bench, the storefront sign text, all textures, colors, lighting, and framing. Do not re-render or alter any other part of the image.",
+      "prompt_tokens": 1200,
+      "completion_tokens": 1120,
+      "cost_usd": 0.0678,
+      "latency_s": 17.09,
+      "text_reply": "",
+      "attempt": 1,
+      "returned_size": [
+        896,
+        1199
+      ]
+    },
+    {
+      "step": "step_03",
+      "model": "google/gemini-3.1-flash-image",
+      "instruction": "Remove the paper shopping bag from the bench and fill that area with the matching bench surface and background. Modify only the region where the bag currently stands. Everything else must remain exactly identical to the input: the woman is completely untouched, the rest of the bench, the street, the sign text, all textures, colors, lighting, and framing stay the same. Do not re-render the rest of the scene.",
+      "prompt_tokens": 342,
+      "completion_tokens": 1499,
+      "cost_usd": 0.068508,
+      "latency_s": 13.07,
+      "text_reply": "",
+      "attempt": 1,
+      "returned_size": [
+        896,
+        1199
+      ]
+    },
+    {
+      "step": "step_04",
+      "model": "google/gemini-3.1-flash-image",
+      "instruction": "Change her white sneakers to black leather loafers. Modify only her shoes. Everything above her ankles and everything in the background must stay exactly identical to the input: same jeans, same cardigan and logo, same face and hair, same street and sign, same colors, lighting, and framing. Do not re-render, smooth, or recolor anything except the shoes.",
+      "prompt_tokens": 1193,
+      "completion_tokens": 1120,
+      "cost_usd": 0.0677965,
+      "latency_s": 16.08,
+      "text_reply": "",
+      "attempt": 1,
+      "returned_size": [
+        896,
+        1199
+      ]
+    },
+    {
+      "step": "step_05",
+      "model": "google/gemini-3.1-flash-image",
+      "instruction": "Fix the collar of her cardigan so it lies flat and even. Modify only the collar area around her neckline. Keep everything else exactly identical to the input: her face, her hair, the embroidered logo, the rest of the cardigan's knit texture, the background, colors, lighting, and framing. Do not re-render anything outside the collar.",
+      "prompt_tokens": 1191,
+      "completion_tokens": 1120,
+      "cost_usd": 0.0677955,
+      "latency_s": 16.21,
+      "text_reply": "",
+      "attempt": 1,
+      "returned_size": [
+        896,
+        1199
+      ]
+    }
+  ]
+}

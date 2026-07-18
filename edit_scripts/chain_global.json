@@ -1,0 +1,22 @@
+{
+  "name": "chain_global",
+  "arm": "global-edit stress case: tests the stated tension between aggressive preservation and edits that legitimately need global change",
+  "note": "Step 1 is scope global: crop mode must fall back to full frame, and diff compositing must not block the relight. Step 2 checks a local edit still works after a global one.",
+  "watch_regions": [
+    {"name": "logo", "box": [0.52, 0.35, 0.14, 0.10], "from": 0},
+    {"name": "sign", "box": [0.26, 0.03, 0.28, 0.11], "from": 0},
+    {"name": "face", "box": [0.44, 0.19, 0.15, 0.15], "from": 1}
+  ],
+  "steps": [
+    {
+      "instruction": "Change the lighting of the whole scene to warm golden hour evening light.",
+      "scope": "global",
+      "regions": []
+    },
+    {
+      "instruction": "Change her sneakers to black leather loafers.",
+      "scope": "local",
+      "regions": [[0.37, 0.87, 0.34, 0.13]]
+    }
+  ]
+}

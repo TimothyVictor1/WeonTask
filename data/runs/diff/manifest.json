@@ -1,0 +1,94 @@
+{
+  "image": "data/inputs/base.png",
+  "model": "google/gemini-3.1-flash-image",
+  "mode": "full",
+  "diff": true,
+  "gate": false,
+  "best_of": 1,
+  "size": 1024,
+  "mock": false,
+  "script": "chain_plain",
+  "started": "2026-07-17T21:58:53.312929+00:00",
+  "steps": [
+    {
+      "step": "step_01",
+      "model": "google/gemini-3.1-flash-image",
+      "instruction": "Make her smile.",
+      "prompt_tokens": 1124,
+      "completion_tokens": 1120,
+      "cost_usd": 0.067762,
+      "latency_s": 16.21,
+      "text_reply": "",
+      "attempt": 1,
+      "returned_size": [
+        896,
+        1199
+      ],
+      "diff_kept_frac": 0.0355
+    },
+    {
+      "step": "step_02",
+      "model": "google/gemini-3.1-flash-image",
+      "instruction": "Add small gold hoop earrings.",
+      "prompt_tokens": 265,
+      "completion_tokens": 1339,
+      "cost_usd": 0.0679895,
+      "latency_s": 10.7,
+      "text_reply": "",
+      "attempt": 1,
+      "returned_size": [
+        896,
+        1199
+      ],
+      "diff_kept_frac": 0.012
+    },
+    {
+      "step": "step_03",
+      "model": "google/gemini-3.1-flash-image",
+      "instruction": "Remove the paper shopping bag from the bench.",
+      "prompt_tokens": 268,
+      "completion_tokens": 1357,
+      "cost_usd": 0.068045,
+      "latency_s": 11.65,
+      "text_reply": "",
+      "attempt": 1,
+      "returned_size": [
+        896,
+        1199
+      ],
+      "diff_kept_frac": 0.08
+    },
+    {
+      "step": "step_04",
+      "model": "google/gemini-3.1-flash-image",
+      "instruction": "Change her sneakers to black leather loafers.",
+      "prompt_tokens": 1128,
+      "completion_tokens": 1120,
+      "cost_usd": 0.067764,
+      "latency_s": 15.48,
+      "text_reply": "",
+      "attempt": 1,
+      "returned_size": [
+        896,
+        1199
+      ],
+      "diff_kept_frac": 0.0516
+    },
+    {
+      "step": "step_05",
+      "model": "google/gemini-3.1-flash-image",
+      "instruction": "Fix the collar of her cardigan so it lies flat.",
+      "prompt_tokens": 1131,
+      "completion_tokens": 1120,
+      "cost_usd": 0.0677655,
+      "latency_s": 16.49,
+      "text_reply": "",
+      "attempt": 1,
+      "returned_size": [
+        896,
+        1199
+      ],
+      "diff_kept_frac": 0.0575
+    }
+  ]
+}
